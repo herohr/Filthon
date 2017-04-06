@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <div style="text-align: center">
+        <form action="/user/register" method="POST">
+            <h3 style="color: #82a9ff">注册</h3>
+            帐号: <input type="text" name="username" value="帐号">
+            密码: <input type="password" name="password">
+            <input type="submit" value="注册">
+        </form>
+    </div>
+{% endblock %}

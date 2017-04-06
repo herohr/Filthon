@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+    <div style="text-align: center">
+    <h3 style="color: #82a9ff">上传文件</h3>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+           请选择文件: <input type="file" name="file">
+            <input type="submit" name="upload">
+        </form>
+    </div>
+{% endblock %}s
