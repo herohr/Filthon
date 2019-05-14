@@ -24,6 +24,7 @@
 			<div class="row">
 				<div class="col-md-8">
 					<form action="." method="post">
+                        {% csrf_token %}
 					  <div class="form-group">
 						<label for="usernameInput">用户名</label>
 						<input type="text" class="form-control" id="usernameInput" placeholder="Username" name="username">
@@ -32,7 +33,7 @@
 						<label for="passwordInput">密码</label>
 						<input type="password" class="form-control" id="passwordInput" placeholder="Password" name="password">
 					  </div>
-					  <input type="submit" class="btn btn-primary" value="注册"></button>
+					  <input type="submit" class="btn btn-primary" value="注册">
 					</form>
 				</div>	
 			</div>

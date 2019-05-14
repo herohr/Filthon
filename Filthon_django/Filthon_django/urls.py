@@ -18,10 +18,11 @@ from django.urls import path
 # from ..Filthon_web_app.views import upload
 # print(dir(Filthon_django.settings.INSTALLED_APPS))
 
-from Filthon_web_app.views import upload, UserBaseActionsView
+from Filthon_web_app.views import FileView, UserBaseActionsView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('upload/', upload.UploadFileView.as_view()),
-    path("register/", UserBaseActionsView.UserRegisterView.as_view())
+    path('upload/', FileView.UploadFileView.as_view()),
+    path("register/", UserBaseActionsView.UserRegisterView.as_view()),
+    path("login/", UserBaseActionsView.UserLoginView.as_view())
 ]

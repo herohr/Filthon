@@ -8,13 +8,16 @@ __all__ = ["User", "File", "LocalFile", "RemoteFile"]
 class User(AbstractUser):
     pass
 
+
 class File(Model):
     id = AutoField(primary_key=True)
     filename = CharField(max_length=256)
 
-    file_size = IntegerField
+    file_size = PositiveIntegerField()
 
     url = URLField()
+
+    user_id = ForeignKey(User, on_delete=CASCADE)
 
     class Meta:
         abstract = True
