@@ -4,18 +4,18 @@ from threading import Lock
 from django.http import HttpResponse
 from django.utils.deprecation import MiddlewareMixin
 from django.conf import settings
+from Filthon_web_app.utils import crypto
+from uuid import uuid4
+
+
 """
 加密算法采用HMAC加密算法
-resut = HMAC(DATA: (user_id + user_pw + UUID), SALT: (SECRET_KEY)) + UUID
+resut = HMAC(DATA: (user_id + UUID), SALT: (SECRET_KEY)) + UUID
 
 session设计
 { UUID: {"user_id", "other_data"}, }
 """
-#
-# class Encrypt:
-#     secret = settings.SECRET_KEY
-#
-#     def encrypt_user_id(self, ):
+
 
 def auth_exempt(func):
     @wraps(func)
@@ -72,3 +72,47 @@ class AuthenticationMiddleware(MiddlewareMixin):
             user_id = request.session.get("id", default=None)
         if request.META.get("HTTP_AUTHORIZATION", False):
             pass
+
+
+class SessionManager:
+    def __init__(self):
+        self.sessions
+
+        self.user2uuidLock = Lock()
+
+    def create_session(self, user_id):
+        uuid = uuid4()
+        self.user2uuid[user_id] = uuid
+
+    def generate_token(self, user_id, uuid):
+        return crypto.generate_token(user_id, uuid, secret_key=settings.SECRET_KEY)
+
+    def check_token(self, token, user_id):
+        if user_id not in  self.user2uuid:
+            return False
+        uuid = self.user2uuid[user_id]
+        result, user_id, _uuid = crypto.parse_token(token, secret_key=settings.SECRET_KEY)
+        if result is False:
+            return False
+        if uuid != _uuid:
+            return False
+        return True
+
+
+class Session:
+    def __init__(self, session_id, user_id,  adapter_cls=None):
+        self.adapter_cls = adapter_cls or DictAdapter
+        self.id = session_id
+        self.user_id = user_id
+        self.data = adapter_cls()
+
+    def get_or_default(self, key, default):
+        return self.data.get(key, default)
+
+    def get(self, key):
+        none = object()
+        result = self.data.get(key, none)
+        if result is none:
+            raise ValueError("Key: {} not in session data.session_id={}".format(key, self.id))
+        return result
+

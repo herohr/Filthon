@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed146f13-1f77-4763-9d0d-cb8e3bb3a34b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/my_files.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/FileView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils/crypto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Filthon.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Filthon.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_django/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_django/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/auth_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/auth_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/upload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/UserBaseActionsView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/UserBaseActionsView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/upload.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Filthon_django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/auth.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +23,7 @@
     <SUITE FILE_PATH="coverage/Filthon$testSendMail.coverage" NAME="testSendMail Coverage Results" MODIFIED="1557374051423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Filthon_django/email_center" />
     <SUITE FILE_PATH="coverage/Filthon$a.coverage" NAME="a Coverage Results" MODIFIED="1557304582327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Filthon$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1557400685318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Filthon_django/Filthon_web_app" />
+    <SUITE FILE_PATH="coverage/Filthon$crypto.coverage" NAME="crypto Coverage Results" MODIFIED="1557910312730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils" />
     <SUITE FILE_PATH="coverage/Filthon$Unittests_for_test_Test.coverage" NAME="Unittests for test.Test Coverage Results" MODIFIED="1557300649256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/file_sys" />
     <SUITE FILE_PATH="coverage/Filthon$Test__Filthon_web_app_tests_Test_testJson.coverage" NAME="Test: Filthon_web_app.tests.Test.testJson Coverage Results" MODIFIED="1557460827385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Filthon$forms.coverage" NAME="forms Coverage Results" MODIFIED="1557460112033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Filthon_django/Filthon_web_app" />
@@ -48,38 +37,29 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/upload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/UserBaseActionsView.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1044">
+            <state relative-caret-position="310">
               <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -89,10 +69,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/tests.py">
+        <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="1170">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils/crypto.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -101,12 +93,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/forms/forms.py">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/hmac.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="77" column="30" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="30" />
+            <state relative-caret-position="227">
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -192,6 +189,8 @@
         <option value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/UserBaseActionsView.py" />
         <option value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/forms.py" />
         <option value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/tests.py" />
+        <option value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils/crypto.py" />
+        <option value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/auth.py" />
       </list>
     </option>
   </component>
@@ -207,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,24 +222,48 @@
               <item name="Filthon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Filthon" type="462c0819:PsiDirectoryNode" />
               <item name="Filthon_django" type="462c0819:PsiDirectoryNode" />
-              <item name="Filthon_django" type="462c0819:PsiDirectoryNode" />
+              <item name="Filthon_web_app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Filthon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Filthon" type="462c0819:PsiDirectoryNode" />
               <item name="Filthon_django" type="462c0819:PsiDirectoryNode" />
               <item name="Filthon_web_app" type="462c0819:PsiDirectoryNode" />
+              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Filthon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Filthon" type="462c0819:PsiDirectoryNode" />
+              <item name="Filthon_django" type="462c0819:PsiDirectoryNode" />
+              <item name="Filthon_web_app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Filthon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Filthon" type="462c0819:PsiDirectoryNode" />
+              <item name="Filthon_django" type="462c0819:PsiDirectoryNode" />
+              <item name="Filthon_web_app" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Filthon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Filthon" type="462c0819:PsiDirectoryNode" />
+              <item name="Filthon_django" type="462c0819:PsiDirectoryNode" />
+              <item name="Filthon_web_app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -261,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: Filthon_web_app.tests.Test.testJson">
+  <component name="RunManager" selected="Python.crypto">
     <configuration name="Test: Filthon_web_app.tests.Test.testJson" type="DjangoTestsConfigurationType" temporary="true">
       <module name="Filthon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,7 +326,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="crypto" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Filthon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,12 +334,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Filthon_django/Filthon_web_app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils/crypto.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,17 +420,17 @@
       <item itemvalue="Django server.Unnamed" />
       <item itemvalue="Django tests.Test: Filthon_web_app.tests.Test.testJson" />
       <item itemvalue="Python.UserBaseApi" />
-      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.urls" />
       <item itemvalue="Python.forms" />
+      <item itemvalue="Python.crypto" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crypto" />
         <item itemvalue="Django tests.Test: Filthon_web_app.tests.Test.testJson" />
         <item itemvalue="Python.forms" />
         <item itemvalue="Python.urls" />
         <item itemvalue="Python.UserBaseApi" />
-        <item itemvalue="Python.__init__" />
       </list>
     </recent_temporary>
   </component>
@@ -425,6 +447,7 @@
       <workItem from="1557298041097" duration="13393000" />
       <workItem from="1557400453724" duration="7762000" />
       <workItem from="1557901775753" duration="687000" />
+      <workItem from="1557902832092" duration="7764000" />
     </task>
     <task id="LOCAL-00001" summary="开始重构Filthon项目，使用Django作为web框架">
       <created>1557485924994</created>
@@ -469,28 +492,29 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21842000" />
+    <option name="totallyTimeSpent" value="29606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49879226" visible="true" weight="0.25716332" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49879226" visible="true" weight="0.260745" />
       <window_info id="Structure" order="2" sideWeight="0.5012077" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49928367" weight="0.32971016" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007163" side_tool="true" visible="true" weight="0.32971016" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="3" sideWeight="0.49928367" visible="true" weight="0.32971016" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50143266" side_tool="true" weight="0.32971016" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49856734" weight="0.32971016" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32971016" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" weight="0.32971016" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3115942" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.3115942" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39975846" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Database" order="0" weight="0.3295129" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="SciView" order="2" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -529,30 +553,6 @@
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/admin/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/admin/checks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/admin/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/admin/filters.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/contrib/admin/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -704,16 +704,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/upload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/upload.py" />
     <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -753,23 +744,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/templates/upload.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="684">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/UserBaseActionsView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -811,10 +792,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="360">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/views/UserBaseActionsView.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/hmac.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="115" column="8" lean-forward="true" selection-start-line="115" selection-start-column="8" selection-end-line="115" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/utils/crypto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Filthon_django/Filthon_web_app/middlewares/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
