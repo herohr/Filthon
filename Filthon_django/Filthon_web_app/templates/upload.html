@@ -2,15 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Upload Prototpe</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <title>上传文件至Filthon-Filthon</title>
 </head>
 <body>
-    <form action="." method="post" enctype="multipart/form-data">
-        <label>
-            <input type="text" name="title">
-        </label>
-        <input type="file" name="file"  />
-        <input type="submit" value="上传文件"/>
-    </form>
+    <div class="container">
+        <div class="row">
+				</br>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h1 class="text-primary">上传文件至-Filthon</h1>
+				</div>
+			</div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form action="." method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                 <div class="form-group">
+                    <input type="text" class="form-control" id="filename" placeholder="filename" name="filename">
+                  </div>
+                <br>
+                <div class="form-group-sm">
+                    <label for="fileUpload">上传文件</label>
+                    <input type="file" name="file" id="fileUpload" />
+                </div>
+                <br>
+                <input type="submit" class="btn btn-primary" value="上传"/>
+            </form>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
